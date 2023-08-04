@@ -1,0 +1,96 @@
+
+// LVN replaced 1 arithmetic instructions
+#include "../../classir.h"
+void test7(int &x,int &y){
+virtual_reg vr0;
+virtual_reg vr1;
+virtual_reg vr2;
+virtual_reg vr3;
+virtual_reg vr4;
+virtual_reg vr5;
+virtual_reg vr6;
+virtual_reg vr7;
+virtual_reg vr8;
+virtual_reg vr9;
+virtual_reg vr10;
+virtual_reg vr11;
+virtual_reg _new_name0;
+virtual_reg _new_name1;
+virtual_reg _new_name2;
+virtual_reg vr1_3;
+virtual_reg vr3_6;
+virtual_reg vr4_7;
+virtual_reg _new_name2_19;
+virtual_reg vr9_13;
+virtual_reg _new_name0_14;
+virtual_reg vr6_10;
+virtual_reg _new_name1_4;
+virtual_reg vr11_12;
+virtual_reg vr2_5;
+virtual_reg _new_name1_15;
+virtual_reg vr8_18;
+virtual_reg vr0_1;
+virtual_reg _new_name2_8;
+virtual_reg vr5_9;
+virtual_reg vr10_16;
+virtual_reg _new_name2_11;
+virtual_reg _new_name0_2;
+virtual_reg _new_name2_20;
+virtual_reg vr7_17;
+vr4_7 = vr4;
+vr3_6 = vr3;
+vr2_5 = vr2;
+vr1_3 = vr1;
+vr0_1 = vr0;
+vr0_1 = int2vr(1);
+_new_name0_2 = vr0_1;
+vr1_3 = int2vr(1);
+_new_name1_4 = vr1_3;
+vr2_5 = int2vr(0);
+x = vr2int(vr2_5);
+vr3_6 = int2vr(0);
+y = vr2int(vr3_6);
+vr4_7 = int2vr(0);
+_new_name2_8 = vr4_7;
+vr0 = vr0_1;
+_new_name0 = _new_name0_2;
+vr1 = vr1_3;
+_new_name1 = _new_name1_4;
+vr2 = vr2_5;
+vr3 = vr3_6;
+vr4 = vr4_7;
+_new_name2 = _new_name2_8;
+label0:
+vr5_9 = vr5;
+_new_name2_11 = _new_name2;
+vr5_9 = int2vr(1024);
+vr6_10 = lti(_new_name2_11,vr5_9);
+vr11_12 = int2vr(0);
+vr5 = vr5_9;
+vr6 = vr6_10;
+vr11 = vr11_12;
+beq(vr6,vr11,label1);
+vr8_18 = vr8;
+vr7_17 = vr7;
+_new_name2_19 = _new_name2;
+vr10_16 = vr10;
+vr9_13 = vr9;
+_new_name1_15 = _new_name1;
+_new_name0_14 = _new_name0;
+vr9_13 = addi(_new_name0_14,_new_name1_15);
+x = vr2int(vr9_13);
+vr10_16 = vr9_13;
+y = vr2int(vr10_16);
+vr7_17 = int2vr(1);
+vr8_18 = addi(_new_name2_19,vr7_17);
+_new_name2_20 = vr8_18;
+vr9 = vr9_13;
+vr10 = vr10_16;
+vr7 = vr7_17;
+vr8 = vr8_18;
+_new_name2 = _new_name2_20;
+branch(label0);
+label1:
+return;
+}
+        

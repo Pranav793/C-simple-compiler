@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "Test 0",
+      "setup": "",
+      "run": "python3.10 main.py tests/test0/test0.cpp",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Test 1",
+      "setup": "",
+      "run": "python3.10 main.py tests/test1/test1.cpp",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "python3.10 main.py tests/test2/test2.cpp",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "python3.10 main.py tests/test3/test3.cpp",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Test 4",
+      "setup": "",
+      "run": "python3.10 main.py tests/test4/test4.cpp",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Test 5",
+      "setup": "",
+      "run": "python3.10 main.py tests/test5/test5.cpp",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Test 6",
+      "setup": "",
+      "run": "python3.10 main.py tests/test6/test6.cpp",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Test 7",
+      "setup": "",
+      "run": "python3.10 main.py tests/test7/test7.cpp",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}
